@@ -21,7 +21,7 @@ def keep_alive():
 threading.Thread(target=keep_alive, daemon=True).start()
 
 # ===== 2. BOT =====
-TOKEN = os.environ.get("BOT_TOKEN", "PASTE_YOUR_TOKEN_HERE")
+TOKEN = os.environ.get("BOT_TOKEN", "9147060497:AAEikPECab21wjANeffP5Ek1e4cgJY1Ft8E")
 
 # Store users who pressed /start so 8am news can find them
 CHAT_IDS = set()
