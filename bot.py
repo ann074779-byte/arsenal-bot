@@ -21,7 +21,7 @@ def keep_alive():
 threading.Thread(target=keep_alive, daemon=True).start()
 
 # ===== 2. YOUR ARSENAL BOT =====
-TOKEN = os.environ.get("BOT_TOKEN", "PASTE_YOUR_TOKEN_HERE")
+TOKEN = os.environ.get("BOT_TOKEN", "9147060497:AAEikPECab21wjANeffP5Ek1e4cgJY1Ft8E")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
